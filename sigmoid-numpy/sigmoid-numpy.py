@@ -7,5 +7,4 @@ def sigmoid(x: list | float) -> np.ndarray | float:
     # Write code here
     if isinstance(x,list):
         return 1/(1+np.exp(-np.array(x)))
-    return float(1/(1+np.exp(-x)))
-    
+    return float (1/(1+np.exp(-x)))
